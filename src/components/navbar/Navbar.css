@@ -1,0 +1,111 @@
+:root {
+  --color_green: #61EBA5
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+
+nav>div {
+  display: grid;
+  grid-template-columns: auto 1fr minmax(260px, .34fr);
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  /*background-color: blue;*/
+}
+
+.nav__logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo__spam {
+  font-weight: 400;
+}
+
+.nav__items {
+  display: flex;
+  gap: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10%;
+}
+
+
+
+
+.nav__linkSocial {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 10px;
+  font-weight: 400;
+}
+
+.nav__socialSvg {
+  width: 20px;
+}
+
+.nav__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 55px;
+  min-height: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #333438;
+  border-radius: 50%;
+}
+
+.nav__envelope {
+  width: 25px;
+}
+
+.nav__social {
+  display: flex;
+  justify-content: end;
+  justify-self: end;
+  width: 100%;
+}
+
+.nav__socialContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 360px;
+}
+
+.nav__divLinkSocial {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+
+}
+
+.location__items {
+  color: var(--color_green);
+}
+
+/*Punto aqui*/
